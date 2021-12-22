@@ -7,7 +7,7 @@
     <div class="container">
       <div class="row row-cols-5 mt-5">
         @foreach ($movies as $movie)
-        <div class="col">    
+        <div class="col mt-5">    
           <div class="card">
             <div class="card-body">
               <h5 class="card-title">{{$movie->title}}</h5>
