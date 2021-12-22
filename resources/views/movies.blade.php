@@ -10,7 +10,7 @@
         <div class="col mt-5">    
           <div class="card">
             <div class="card-body">
-              <h5 class="card-title">{{$movie->title}}</h5>
+              <h5 class="card-title pb-3">{{$movie->title}}</h5>
               <p class="card-text"><strong>Original title</strong>: {{$movie->original_title}}</p>
               <p class="card-text"><strong>Nationality</strong>: {{$movie->nationality}}</p>
               <p class="card-text"><strong>Date</strong>: {{$movie->date}}</p>
