@@ -1,0 +1,21 @@
+header {
+  height: 80px;
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header h1 {
+  color: red;
+  cursor: default;
+}
+
+header input {
+  height: 38px;
+}
+
+body {
+  background-color: gray;
+}
+

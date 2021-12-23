@@ -1,9 +1,6 @@
 @extends('layouts/default')
 
 @section('content')
-    <h1 class="text-center">Movies</h1>
-
-
     <div class="container">
       <div class="row row-cols-5 mt-5">
         @foreach ($movies as $movie)
